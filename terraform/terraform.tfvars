@@ -1,4 +1,4 @@
-vpc_id         = ""
-subnet_ids     = ["subnet-09031555124f7665b", "subnet-07ecd9b412a7efa9f"]
+vpc_id         = "vpc-03d34931d255286a0"
+subnet_ids     = ["subnet-05a405dc53fd016a9", "subnet-0698f8f0c25b61e86"]
 route53_zone_id = "Z06607023RJWXGXD2ZL6M"
-sub_domain      = "ashithavedody.contentecho.in"
+sub_domain      = "leticia.contentecho.in"
