@@ -12,7 +12,7 @@ resource "aws_ecs_task_definition" "strapi" {
   container_definitions = jsonencode([
     {
       name      = "strapi"
-      image     = "ashitha1999/strapi:1.0.0"
+      image     = "leticia888444/strapi_docker_final"
       essential = true
       portMappings = [
         {
