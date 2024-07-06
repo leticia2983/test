@@ -22,5 +22,5 @@ variable "route53_zone_id" {
 variable "sub_domain" {
   description = "The sub-domain for the Strapi application"
   type        = string
-  default     = "ashithavedody.contentecho.in"
+  default     = "leticia.contentecho.in"
 }
