@@ -19,7 +19,7 @@ resource "aws_internet_gateway" "main" {
 resource "aws_subnet" "public_1" {
   vpc_id                  = aws_vpc.main.id
   cidr_block              = "10.0.1.0/24"
-  availability_zone       = "us-east-2a"
+  availability_zone       = "us-west-2b"
   map_public_ip_on_launch = true
 
   tags = {
@@ -31,7 +31,7 @@ resource "aws_subnet" "public_1" {
 resource "aws_subnet" "public_2" {
   vpc_id                  = aws_vpc.main.id
   cidr_block              = "10.0.2.0/24"
-  availability_zone       = "us-east-2b"
+  availability_zone       = "us-west-2c"
   map_public_ip_on_launch = true
 
   tags = {
