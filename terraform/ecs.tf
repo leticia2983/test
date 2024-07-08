@@ -8,7 +8,7 @@ resource "aws_ecs_task_definition" "strapi" {
   requires_compatibilities = ["FARGATE"]
   cpu                      = "1024"
   memory                   = "2048"
-  execution_role_arn = "arn:aws:ecs:ap-southeast-2:533266978173:task-definition/strapi-let5"
+  execution_role_arn = "arn:aws:ecs:ap-southeast-2:533266978173:task-definition/strapi-let5:2"
   container_definitions = jsonencode([
     {
       name      = "strapi"
