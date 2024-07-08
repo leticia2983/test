@@ -6,13 +6,13 @@ resource "aws_ecs_task_definition" "strapi" {
   family                   = "strapi-let5"
   network_mode             = "awsvpc"
   requires_compatibilities = ["FARGATE"]
-  cpu                      = "256"
-  memory                   = "512"
+  cpu                      = "1024"
+  memory                   = "2048"
 
   container_definitions = jsonencode([
     {
       name      = "strapi"
-      image     = "ashitha1999/strapi:1.0.0"
+      image     = "leticia888444/strapi:1.0"
       essential = true
       portMappings = [
         {
