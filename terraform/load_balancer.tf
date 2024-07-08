@@ -1,5 +1,5 @@
 resource "aws_security_group" "strapi_sg" {
-  name        = "strapi-sg-let"
+  name        = "strapi-sg-let-new"
   description = "Allow inbound traffic to Strapi"
   vpc_id      = var.vpc_id
 
